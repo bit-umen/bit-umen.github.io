@@ -28,30 +28,6 @@ a {
     color: #D6C666;
     text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
-}
-
-a.its {
-    color: #99DDEA; 
-}
-a.bit-umen {
-    color: #CF206B;
-}
-a.cotr {
-    color: #8960BF;	
-}
-
-.project {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 4vh;
-}
-
-.sub {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 3.5vh;
-    line-height: 6vh;
-}
 
 .title {
     width: auto;
@@ -66,34 +42,113 @@ a.cotr {
     display: block;
 }
 
+.subtitle {
+    width: auto;
+    height: 6vh;
+    margin-top: 1vmin;
+    margin-bottom: 5vmin;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3vh;
+}
+.subtitle img {
+    height: 6vh;
+}
+
+.section {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3.5vmin;
+    height: 25vh;
+    width: auto;
+    margin-top: 2vmin;
+    line-height: 6vh;
+}
+.section img {
+    height: 9vmin;
+    /*-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+}
+
+.project {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4vh;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.description {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3vh;
+    line-height: 6vh;
+}
+
 </style>
 </head>
 
 <body>
 	<div class="title">andrea galvani</div>
-    <a href="https://www.instagram.com/itsandreagalvani/">-> instagram <-</a>
-    <div style="height=25vmin; margin-top:6vmin; line-height: 6vh;">
-        <div class="project" style="color:#99DDEA">self-titled (WIP)</div>
-        <div class="sub">groovy moody gameboy loops</div>
-        <a class="its" href="https://soundcloud.com/itsandreagalvani">soundcloud</a>
-        <a class="its" href="mailto:itsandreagalvani@gmail.com">contact</a>
+
+    <div class="subtitle">
+        follow me here:
+        <a href="https://www.instagram.com/itsandreagalvani">
+            <img src="img/instagram_icon.png">
+        </a>
     </div>
-	<div style="height=25vmin; margin-top:6vmin; line-height: 6vh;">
-		<div class="project" style="color:#CF206B">bit.umen</div>
-        <div class="sub">nintendo DS aggression</div>
-		<a class="bit-umen" href="https://bit-umen.bandcamp.com/album/uncanny-valley">bandcamp</a>
-		<a class="bit-umen" href="https://soundcloud.com/bit-umen/live-set-overflow-006">soundcloud</a>
-		<a class="bit-umen" href="https://www.youtube.com/watch?v=uvwD3DdlaPo">youtube</a>
-		<a class="bit-umen" href="https://www.facebook.com/bit.umen.noise">facebook</a>
-		<a class="bit-umen" href="mailto:bit.umen.noise@gmail.com">contact</a>
+
+    <div class="section" style="background:#32494d; color:#99DDEA">
+        <div class="project">self-titled (WIP)</div>
+        <div class="description">groovy moody gameboy loops</div>
+        listen:
+            <a href="https://soundcloud.com/itsandreagalvani">
+                <img src="img/soundcloud_icon.jpg">
+            </a>
+        contact:
+            <a href="mailto:itsandreagalvani@gmail.com">
+                <img src="img/gmail_icon.png">
+            </a>
+    </div>
+
+	<div class="section" style="background:#5c0e2f; color:#CF206B">
+		<div class="project">bit.umen</div>
+        <div class="description">nintendo DS aggression</div>
+		listen:
+            <a class="bit-umen" href="https://bit-umen.bandcamp.com/album/uncanny-valley">
+                <img src="img/bandcamp_icon.png">
+            </a>
+    		<a class="bit-umen" href="https://soundcloud.com/bit-umen/live-set-overflow-006">
+                <img src="img/soundcloud_icon.jpg">
+            </a>
+            <a class="bit-umen" href="https://www.youtube.com/watch?v=uvwD3DdlaPo">
+                <img src="img/youtube_icon.png">            
+            </a>
+        contact:    
+            <a class="bit-umen" href="https://www.facebook.com/bit.umen.noise">
+                <img src="img/facebook_icon.png">            
+            </a>
+            <a class="bit-umen" href="mailto:bit.umen.noise@gmail.com">
+                <img src="img/gmail_icon.png">
+            </a>
 	</div>
-	<div style="height=25vmin; margin-top:6vmin; line-height: 6vh;">
-		<div class="project" style="color:#8960BF">Children of the Rave</div>
-        <div class="sub">straightforward gameboy & drums duo</div>
-		<a class="cotr" href="https://childrenoftherave.bandcamp.com">bandcamp</a>
-		<a class="cotr" href="https://soundcloud.com/childrenoftherave/satisfaction-not-the-most">soundcloud</a>
-		<a class="cotr" href="https://www.facebook.com/childrenoftherave">facebook</a>
-		<a class="cotr" href="mailto:children.of.the.rave.music@gmail.com">contact</a>
+
+	<div class="section" style="background:#322346; color:#8960BF">
+		<div class="project">Children of the Rave</div>
+        <div class="description">straightforward gameboy & drums duo</div>
+        listen:
+    		<a class="cotr" href="https://childrenoftherave.bandcamp.com">
+                <img src="img/bandcamp_icon.png">
+            </a>
+    		<a class="cotr" href="https://soundcloud.com/childrenoftherave/satisfaction-not-the-most">
+                <img src="img/soundcloud_icon.jpg">            
+            </a>
+        contact:
+    		<a class="cotr" href="https://www.facebook.com/childrenoftherave">
+                <img src="img/facebook_icon.png">            
+            </a>
+    		<a class="cotr" href="mailto:children.of.the.rave.music@gmail.com">
+                <img src="img/gmail_icon.png">            
+            </a>
 	</div>	
 </body>
 
